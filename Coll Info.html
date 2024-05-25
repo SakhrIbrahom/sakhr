@@ -1,0 +1,2032 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="CSS/Style Index.css" />
+    <link rel="stylesheet" href="CSS/style Coll Info.css" />
+    <link
+      href="https://font.googleapis.com/css?family=Aref+Ruqaa&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!------------Navightion------------>
+    <div class="container">
+      <div class="navightion">
+        <ul>
+          <li>
+            <a href="#">
+              <span class="icon"><img src="imag/Univer_Icon.png" alt="شعار الجامعة"></span>
+              <span class="title">جامعة إقليم سبأ</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="Coll Info.html">
+              <span class="icon"> 
+               <ion-icon name="home-outline"></ion-icon>
+               </span>
+              <span class="title">الرئيسية</span>
+            </a>
+          </li>
+
+          <li>
+            <a href=" index.html">
+              <span class="icon"
+                ><ion-icon name="pencil-outline"></ion-icon
+              ></span>
+              <span class="title">بوابة التنسيق</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <span class="icon"
+                ><ion-icon name="people-outline"></ion-icon
+              ></span>
+              <span class="title">Customers</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="">
+              <span class="icon"
+                ><ion-icon name="chatbubble-outline"></ion-icon
+              ></span>
+              <span class="title">Messages</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="">
+              <span class="icon"
+                ><ion-icon name="help-outline"></ion-icon
+              ></span>
+              <span class="title">Help</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="">
+              <span class="icon"
+                ><ion-icon name="settings-outline"></ion-icon
+              ></span>
+              <span class="title">Setting</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="">
+              <span class="icon"
+                ><ion-icon name="lock-closed-outline"></ion-icon
+              ></span>
+              <span class="title">Password</span>
+            </a>
+          </li>
+
+          <li class="log out">
+            <a href="">
+              <span class="icon"
+                ><ion-icon name="log-out-outline"></ion-icon
+              ></span>
+              <span class="title">Sing Out</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!---- Main ------>
+
+      <div class="main">
+        <div class="topbar">
+          <div class="toggle">
+            <ion-icon name="menu-outline"></ion-icon>
+          </div>
+          <div class="search">
+            <label>
+              <h3>جامعة أقليم سبأ</h3>
+               <h3>University of Sheba Province</h3>
+            </label>
+          </div>
+          <div class="user">
+            <img src="imag/My Photo.jpg" alt="User Photo" />
+          </div>
+        </div>
+
+        <!-- ===================== order Details List ========================== -->
+        <div class="details">
+          <div class="recentOrders">
+            <div class="cardHeader">
+              <h2 id="SecName"></h2>
+              <a href="#" class="btn">التخصص</a>
+            </div>
+            <div id="ViewTable" class="CollTables">
+               <table>
+                  <thead>
+                      <tr>
+                          <td>الفصل</td>
+                          <td>المستوى</td>
+                          <td>أسم المادة</td>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td><span class="status pending">الفصل الأول</span></td>
+                          <td>المستوى الأول</td>
+                          <td>علم التشريح البشري</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status inProgress">الفصل الثاني</span></td>
+                          <td>المستوى الأول</td>
+                          <td>علم وظائف الأعضاء (الفسيولوجيا)</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status pending">الفصل الأول</span></td>
+                          <td>المستوى الثاني</td>
+                          <td>علم الأنسجة</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status inProgress">الفصل الثاني</span></td>
+                          <td>المستوى الثاني</td>
+                          <td>علم الأحياء الدقيقة الطبية</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status pending">الفصل الأول</span></td>
+                          <td>المستوى الثالث</td>
+                          <td>علم الأمراض</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status inProgress">الفصل الثاني</span></td>
+                          <td>المستوى الثالث</td>
+                          <td>الصيدلة السريرية</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status pending">الفصل الأول</span></td>
+                          <td>المستوى الرابع</td>
+                          <td>الطب الباطني</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status inProgress">الفصل الثاني</span></td>
+                          <td>المستوى الرابع</td>
+                          <td>الجراحة العامة</td>
+                      </tr>
+                  </tbody>
+              </table>
+              
+            </div>
+
+            <div id="ViewTable1" class="CollTables">
+              <table>
+                <thead>
+                  <tr>
+                    <td>الفصل</td>
+                    <td>المستوى</td>
+                    <td>أسم المادة</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الأول</td>
+                    <td>مقدمة في تكنولوجيا المعلومات</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الأول</td>
+                    <td>مبادئ البرمجة</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>قواعد البيانات 1</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>تحليل وتصميم النظم</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>قواعد البيانات 2</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>برمجة تطبيقات الويب</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>إدارة مشاريع تكنولوجيا المعلومات</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>نظم إدارة قواعد البيانات</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div id="ViewTable2" class="CollTables">
+              <table>
+                <thead>
+                  <tr>
+                    <td>الفصل</td>
+                    <td>المستوى</td>
+                    <td>أسم المادة</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الأول</td>
+                    <td>مبادئ البرمجة</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الأول</td>
+                    <td>هياكل البيانات</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>الخوارزميات</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>قواعد البيانات</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>أنظمة التشغيل</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>شبكات الحاسوب</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>هندسة البرمجيات</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>الذكاء الاصطناعي</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div id="ViewTable3" class="CollTables">
+              <table>
+                <thead>
+                  <tr>
+                    <td>الفصل</td>
+                    <td>المستوى</td>
+                    <td>أسم المادة</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الأول</td>
+                    <td>مقدمة في تكنولوجيا المعلومات</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الأول</td>
+                    <td>أساسيات البرمجة</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>أساسيات قواعد البيانات</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>أساسيات شبكات الحاسوب</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>أنظمة التشغيل</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>برمجة تطبيقات الويب</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>إدارة مشاريع تكنولوجيا المعلومات</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>أمن المعلومات</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div id="ViewTable4" class="CollTables">
+              <table>
+                <thead>
+                  <tr>
+                    <td>الفصل</td>
+                    <td>المستوى</td>
+                    <td>أسم الماده</td>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>مستوى الأول</td>
+                    <td>لغة عربية(101)</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>مستوى الأول</td>
+                    <td>لغة انجليزية (101)</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>مستوى ثاني</td>
+                    <td>السيرة النبوية</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>مستوى ثاني</td>
+                    <td>فقة وحديث</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>مستوى ثالث</td>
+                    <td>العدل في الحكم</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>مستوى الثالث</td>
+                    <td>القانون اليمني</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>مستوى رابع</td>
+                    <td>الدستور</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>مستوى رابع</td>
+                    <td>كيف تشارع من اجل الحق</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div id="ViewTable5" class="CollTables">
+               <table>
+                  <thead>
+                      <tr>
+                          <td>الفصل</td>
+                          <td>المستوى</td>
+                          <td>أسم المادة</td>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td><span class="status pending">الفصل الأول</span></td>
+                          <td>المستوى الأول</td>
+                          <td>مقدمة في التسويق</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status inProgress">الفصل الثاني</span></td>
+                          <td>المستوى الأول</td>
+                          <td>سلوك المستهلك</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status pending">الفصل الأول</span></td>
+                          <td>المستوى الثاني</td>
+                          <td>إدارة العلامات التجارية</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status inProgress">الفصل الثاني</span></td>
+                          <td>المستوى الثاني</td>
+                          <td>أبحاث السوق</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status pending">الفصل الأول</span></td>
+                          <td>المستوى الثالث</td>
+                          <td>التسويق الرقمي</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span الشهادة inProgress">الفصل الثاني</span></td>
+                          <td>المستوى الثالث</td>
+                          <td>إدارة المبيعات</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status pending">الفصل الأول</span></td>
+                          <td>المستوى الرابع</td>
+                          <td>استراتيجيات التسويق</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status inProgress">الفصل الثاني</span></td>
+                          <td>المستوى الرابع</td>
+                          <td>إدارة حملات التسويق</td>
+                      </tr>
+                  </tbody>
+              </table>
+              
+            </div>
+
+            <div id="ViewTable6" class="CollTables">
+               <table>
+                  <thead>
+                      <tr>
+                          <td>الفصل</td>
+                          <td>المستوى</td>
+                          <td>أسم المادة</td>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td><span class="status pending">الفصل الأول</span></td>
+                          <td>المستوى الأول</td>
+                          <td>مبادئ التمويل</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status inProgress">الفصل الثاني</span></td>
+                          <td>المستوى الأول</td>
+                          <td>مبادئ المحاسبة</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status pending">الفصل الأول</span></td>
+                          <td>المستوى الثاني</td>
+                          <td>مبادئ البنوك والمصارف</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status inProgress">الفصل الثاني</span></td>
+                          <td>المستوى الثاني</td>
+                          <td>تحليل القوائم المالية</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status pending">الفصل الأول</span></td>
+                          <td>المستوى الثالث</td>
+                          <td>إدارة المؤسسات المصرفية</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status inProgress">الفصل الثاني</span></td>
+                          <td>المستوى الثالث</td>
+                          <td>الأسواق المالية</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status pending">الفصل الأول</span></td>
+                          <td>المستوى الرابع</td>
+                          <td>إدارة المخاطر المالية</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status inProgress">الفصل الثاني</span></td>
+                          <td>المستوى الرابع</td>
+                          <td>إدارة الاستثمار</td>
+                      </tr>
+                  </tbody>
+              </table>
+              
+            </div>
+
+            <div id="ViewTable7" class="CollTables">
+              <table>
+                <thead>
+                  <tr>
+                    <td>الفصل</td>
+                    <td>المستوى</td>
+                    <td>أسم المادة</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>مستوى الأول</td>
+                    <td>مبادئ الإدارة</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>مستوى الأول</td>
+                    <td>مبادئ التسويق</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>مستوى ثاني</td>
+                    <td>مبادئ المحاسبة</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>مستوى ثاني</td>
+                    <td>مبادئ الموارد البشرية</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>مستوى ثالث</td>
+                    <td>نظريات الإدارة</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>مستوى ثالث</td>
+                    <td>إدارة الجودة الشاملة</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>مستوى رابع</td>
+                    <td>إدارة المشاريع</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>مستوى رابع</td>
+                    <td>الإدارة الاستراتيجية</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div id="ViewTable8" class="CollTables">
+              <table>
+                <thead>
+                  <tr>
+                    <td>الفصل</td>
+                    <td>المستوى</td>
+                    <td>أسم المادة</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الأول</td>
+                    <td>مبادئ إدارة الأعمال</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الأول</td>
+                    <td>مبادئ التسويق</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>مبادئ المالية العامة</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>مبادئ المحاسبة</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>إدارة الموارد البشرية</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>إدارة العمليات</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>إدارة المشاريع</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>الإدارة الاستراتيجية</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div id="ViewTable9" class="CollTables">
+              <table>
+                <thead>
+                  <tr>
+                    <td>الفصل</td>
+                    <td>المستوى</td>
+                    <td>أسم المادة</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الأول</td>
+                    <td>مبادئ المحاسبة المالية</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الأول</td>
+                    <td>مبادئ المحاسبة الإدارية</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>المحاسبة المتوسطة 1</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>المحاسبة المتوسطة 2</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>مبادئ التدقيق الداخلي</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>تحليل القوائم المالية</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>محاسبة التكاليف</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>المحاسبة الضريبية</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div id="ViewTable10" class="CollTables">
+              <table>
+                <thead>
+                  <tr>
+                    <td>الفصل</td>
+                    <td>المستوى</td>
+                    <td>أسم المادة</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الأول</td>
+                    <td>مقدمة في علوم القرآن</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الأول</td>
+                    <td>التجويد وأحكامه</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>تفسير القرآن 1</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>أسباب النزول</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>علوم الحديث</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>السيرة النبوية</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>تفسير القرآن 2</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>فقه القرآن</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div id="ViewTable11" class="CollTables">
+              <table>
+                <thead>
+                  <tr>
+                    <td>الفصل</td>
+                    <td>المستوى</td>
+                    <td>أسم المادة</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الأول</td>
+                    <td>قواعد اللغة الإنجليزية 1</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الأول</td>
+                    <td>مبادئ الأدب الإنجليزي</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>علم الأصوات</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>مهارات الترجمة 1</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>تاريخ الأدب الإنجليزي</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>الشعر الإنجليزي</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>مهارات التدريس 1</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>مهارات التدريس 2</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div id="ViewTable12" class="CollTables">
+              <table>
+                <thead>
+                  <tr>
+                    <td>الفصل</td>
+                    <td>المستوى</td>
+                    <td>أسم المادة</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الأول</td>
+                    <td>مبادئ النحو 1</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الأول</td>
+                    <td>الأدب العربي القديم</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>مبادئ البلاغة</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>النقد الأدبي</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>الشعر العربي</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>النثر العربي</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>تاريخ الأدب العربي</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>مهارات التدريس للغة العربية</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div id="ViewTable13" class="CollTables">
+              <table>
+                <thead>
+                  <tr>
+                    <td>الفصل</td>
+                    <td>المستوى</td>
+                    <td>أسم المادة</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الأول</td>
+                    <td>مقدمة في علم الأحياء</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الأول</td>
+                    <td>علم النبات</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>علم الحيوان</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>علم الأحياء الدقيقة</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>علم الوراثة</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>علم البيئة</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>علم التشريح</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>فسيولوجيا الحيوان</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div id="ViewTable14" class="CollTables">
+              <table>
+                <thead>
+                  <tr>
+                    <td>الفصل</td>
+                    <td>المستوى</td>
+                    <td>أسم المادة</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الأول</td>
+                    <td>مبادئ الجبر</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الأول</td>
+                    <td>الهندسة المستوية</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>حساب التفاضل والتكامل 1</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>حساب التفاضل والتكامل 2</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>مبادئ الإحصاء</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>نظرية المجموعات</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>الرياضيات التطبيقية</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>طرق تدريس الرياضيات</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div id="ViewTable15" class="CollTables">
+              <table>
+                <thead>
+                  <tr>
+                    <td>الفصل</td>
+                    <td>المستوى</td>
+                    <td>أسم المادة</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الأول</td>
+                    <td>مبادئ الفيزياء</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الأول</td>
+                    <td>ميكانيكا كلاسيكية 1</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>كهرباء ومغناطيسية 1</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>كهرباء ومغناطيسية 2</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>ميكانيكا كلاسيكية 2</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>فيزياء حرارية</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>ميكانيكا الكم 1</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>فيزياء الموجات</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div id="ViewTable16" class="CollTables">
+              <table>
+                <thead>
+                  <tr>
+                    <td>الفصل</td>
+                    <td>المستوى</td>
+                    <td>أسم المادة</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الأول</td>
+                    <td>مقدمة في الكيمياء</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الأول</td>
+                    <td>الكيمياء العامة</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>الكيمياء العضوية 1</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>الكيمياء العضوية 2</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>الكيمياء التحليلية 1</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>الكيمياء الفيزيائية</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>الكيمياء الحيوية</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>طرق تدريس الكيمياء</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div id="ViewTable17" class="CollTables">
+              <table>
+                <thead>
+                  <tr>
+                    <td>الفصل</td>
+                    <td>المستوى</td>
+                    <td>أسم المادة</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الأول</td>
+                    <td>مقدمة في الجيولوجيا</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الأول</td>
+                    <td>الجيولوجيا الفيزيائية</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>علم الصخور</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>علم المعادن</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>الجيولوجيا التاريخية</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>علم الزلازل والبراكين</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>جيولوجيا البترول</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>الجيولوجيا البيئية</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div id="ViewTable18" class="CollTables">
+              <table>
+                <thead>
+                  <tr>
+                    <td>الفصل</td>
+                    <td>المستوى</td>
+                    <td>أسم المادة</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الأول</td>
+                    <td>مقدمة في التربية</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الأول</td>
+                    <td>علم نفس الطفل</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>طرق تدريس الرياضيات</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>طرق تدريس اللغة العربية</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>تدريس العلوم للمرحلة الابتدائية</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>التربية الفنية للمرحلة الابتدائية</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>إدارة الفصل الدراسي</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>التدريب العملي في التدريس</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div id="ViewTable19" class="CollTables">
+              <table>
+                <thead>
+                  <tr>
+                    <td>الفصل</td>
+                    <td>المستوى</td>
+                    <td>أسم المادة</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الأول</td>
+                    <td>مبادئ الشريعة</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الأول</td>
+                    <td>أصول الفقه</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>تفسير القرآن</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>علوم الحديث</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>العقيدة الإسلامية</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>التاريخ الإسلامي</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>الفقه الإسلامي</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>الاجتهاد وقواعد الفقه</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div id="ViewTable20" class="CollTables">
+              <table>
+                <thead>
+                  <tr>
+                    <td>الفصل</td>
+                    <td>المستوى</td>
+                    <td>أسم المادة</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الأول</td>
+                    <td>قواعد اللغة الإنجليزية 1</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الأول</td>
+                    <td>مقدمة في الأدب الإنجليزي</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>علم الأصوات الإنجليزية</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>الشعر الإنجليزي</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>القصص القصيرة</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>النقد الأدبي</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>الرواية الإنجليزية</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>اللغويات 1</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div id="ViewTable21" class="CollTables">
+              <table>
+                <thead>
+                  <tr>
+                    <td>الفصل</td>
+                    <td>المستوى</td>
+                    <td>أسم المادة</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الأول</td>
+                    <td>مقدمة في علم الآثار</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الأول</td>
+                    <td>تاريخ الفن القديم</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>أنثروبولوجيا ثقافية</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>علم الآثار المصرية</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>علم الآثار الإسلامية</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>إدارة التراث الثقافي</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>تخطيط سياحي</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>إدارة المواقع الأثرية</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div id="ViewTable22" class="CollTables">
+              <table>
+                <thead>
+                  <tr>
+                    <td>الفصل</td>
+                    <td>المستوى</td>
+                    <td>أسم المادة</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الأول</td>
+                    <td>مقدمة في الإعلام</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الأول</td>
+                    <td>مبادئ الصحافة</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>أساسيات التصوير الفوتوغرافي</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>أساسيات تحرير الفيديو</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>مبادئ إذاعة وتلفزيون</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>الإنتاج الإذاعي والتلفزيوني</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>إعداد وتقديم البرامج التلفزيونية</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>إنتاج البرامج الإذاعية</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div id="ViewTable23" class="CollTables">
+              <table>
+                <thead>
+                  <tr>
+                    <td>الفصل</td>
+                    <td>المستوى</td>
+                    <td>أسم المادة</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الأول</td>
+                    <td>مقدمة في العلاقات العامة</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الأول</td>
+                    <td>أساسيات الكتابة الإعلامية</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>إدارة الاتصالات</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>أساسيات التسويق</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>إدارة الحملات الإعلامية</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>إدارة الأزمات</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>إدارة السمعة وبناء العلامة التجارية</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>التواصل مع وسائل الإعلام</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div id="ViewTable24" class="CollTables">
+              <table>
+                <thead>
+                  <tr>
+                    <td>الفصل</td>
+                    <td>المستوى</td>
+                    <td>أسم المادة</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الأول</td>
+                    <td>مقدمة في العلوم السياسية</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الأول</td>
+                    <td>تاريخ الفكر السياسي</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>السياسة المقارنة</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثاني</td>
+                    <td>العلاقات الدولية</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>القانون الدولي العام</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الثالث</td>
+                    <td>المنظمات الدولية</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status pending">الفصل الأول</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>تحليل السياسات العامة</td>
+                  </tr>
+
+                  <tr>
+                    <td><span class="status inProgress">الفصل الثاني</span></td>
+                    <td>المستوى الرابع</td>
+                    <td>النظريات السياسية الحديثة</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div id="ViewTable25" class="CollTables">
+               <table>
+                  <thead>
+                      <tr>
+                          <td>الفصل</td>
+                          <td>المستوى</td>
+                          <td>أسم المادة</td>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td><span class="status pending">الفصل الأول</span></td>
+                          <td>المستوى الأول</td>
+                          <td>مقدمة في علم الأحياء</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status inProgress">الفصل الثاني</span></td>
+                          <td>المستوى الأول</td>
+                          <td>علم النبات</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status pending">الفصل الأول</span></td>
+                          <td>المستوى الثاني</td>
+                          <td>علم الحيوان</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status inProgress">الفصل الثاني</span></td>
+                          <td>المستوى الثاني</td>
+                          <td>علم الأحياء الدقيقة</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status pending">الفصل الأول</span></td>
+                          <td>المستوى الثالث</td>
+                          <td>علم الوراثة</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status inProgress">الفصل الثاني</span></td>
+                          <td>المستوى الثالث</td>
+                          <td>علم البيئة</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status pending">الفصل الأول</span></td>
+                          <td>المستوى الرابع</td>
+                          <td>علم التشريح</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status inProgress">الفصل الثاني</span></td>
+                          <td>المستوى الرابع</td>
+                          <td>فسيولوجيا الكائنات الحية</td>
+                      </tr>
+                  </tbody>
+              </table>
+              
+            </div>
+
+            <div id="ViewTable26" class="CollTables">
+               <table>
+                  <thead>
+                      <tr>
+                          <td>الفصل</td>
+                          <td>المستوى</td>
+                          <td>أسم المادة</td>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td><span class="status pending">الفصل الأول</span></td>
+                          <td>المستوى الأول</td>
+                          <td>مقدمة في علم الأحياء</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status inProgress">الفصل الثاني</span></td>
+                          <td>المستوى الأول</td>
+                          <td>علم النبات</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status pending">الفصل الأول</span></td>
+                          <td>المستوى الثاني</td>
+                          <td>علم الحيوان</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status inProgress">الفصل الثاني</span></td>
+                          <td>المستوى الثاني</td>
+                          <td>علم الأحياء الدقيقة</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status pending">الفصل الأول</span></td>
+                          <td>المستوى الثالث</td>
+                          <td>علم الوراثة</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status inProgress">الفصل الثاني</span></td>
+                          <td>المستوى الثالث</td>
+                          <td>علم البيئة</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status pending">الفصل الأول</span></td>
+                          <td>المستوى الرابع</td>
+                          <td>علم التشريح</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status inProgress">الفصل الثاني</span></td>
+                          <td>المستوى الرابع</td>
+                          <td>فسيولوجيا الكائنات الحية</td>
+                      </tr>
+                  </tbody>
+              </table>
+              
+            </div>
+
+            <div id="ViewTable27" class="CollTables">
+               <table>
+                  <thead>
+                      <tr>
+                          <td>الفصل</td>
+                          <td>المستوى</td>
+                          <td>أسم المادة</td>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td><span class="status pending">الفصل الأول</span></td>
+                          <td>المستوى الأول</td>
+                          <td>مبادئ الجبر</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status inProgress">الفصل الثاني</span></td>
+                          <td>المستوى الأول</td>
+                          <td>الهندسة المستوية</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status pending">الفصل الأول</span></td>
+                          <td>المستوى الثاني</td>
+                          <td>حساب التفاضل والتكامل 1</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status inProgress">الفصل الثاني</span></td>
+                          <td>المستوى الثاني</td>
+                          <td>حساب التفاضل والتكامل 2</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status pending">الفصل الأول</span></td>
+                          <td>المستوى الثالث</td>
+                          <td>الإحصاء التطبيقي</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status inProgress">الفصل الثاني</span></td>
+                          <td>المستوى الثالث</td>
+                          <td>التحليل الرياضي</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status pending">الفصل الأول</span></td>
+                          <td>المستوى الرابع</td>
+                          <td>نظرية الأعداد</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status inProgress">الفصل الثاني</span></td>
+                          <td>المستوى الرابع</td>
+                          <td>نظرية المجموعات</td>
+                      </tr>
+                  </tbody>
+              </table>
+              
+            </div>
+
+            <div id="ViewTable28" class="CollTables">
+               <table>
+                  <thead>
+                      <tr>
+                          <td>الفصل</td>
+                          <td>المستوى</td>
+                          <td>أسم المادة</td>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td><span class="status pending">الفصل الأول</span></td>
+                          <td>المستوى الأول</td>
+                          <td>مبادئ النحو</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status inProgress">الفصل الثاني</span></td>
+                          <td>المستوى الأول</td>
+                          <td>البلاغة العربية</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status pending">الفصل الأول</span></td>
+                          <td>المستوى الثاني</td>
+                          <td>الأدب العربي القديم</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status inProgress">الفصل الثاني</span></td>
+                          <td>المستوى الثاني</td>
+                          <td>الشعر العربي</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status pending">الفصل الأول</span></td>
+                          <td>المستوى الثالث</td>
+                          <td>النقد الأدبي</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status inProgress">الفصل الثاني</span></td>
+                          <td>المستوى الثالث</td>
+                          <td>النثر العربي</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status pending">الفصل الأول</span></td>
+                          <td>المستوى الرابع</td>
+                          <td>تاريخ الأدب العربي</td>
+                      </tr>
+              
+                      <tr>
+                          <td><span class="status inProgress">الفصل الثاني</span></td>
+                          <td>المستوى الرابع</td>
+                          <td>اللغة العربية الحديثة</td>
+                      </tr>
+                  </tbody>
+              </table>
+              
+            </div>
+
+          </div>
+
+          <!-- ===================== New Customers ===================== -->
+          <!-- ===================== New Customers ===================== -->
+          <div class="recentCustomer">
+            <div class="cardHeader">
+              <h2 style="margin: 10px auto">المقررات الدراسية للكليات`</h2>
+            </div>
+            <table>
+              <tr>
+                <td>
+                  <h4>كلية الطب<br /></h4>
+                  <div class="Coll">
+                    <ul>
+                      <li><a href="#SecName" onclick="ShowTable('ViewTable')">طب بشري</a></li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <h4>كلية تكنلوجيا المعلومات وعلوم الحاسوب<br /></h4>
+                  <div class="Coll">
+                    <ul>
+                      <li><a href="#SecName" onclick="ShowTable('ViewTable1')">نظم معلومات</a></li>
+                      <li><a href="#SecName" onclick="ShowTable('ViewTable2')">علوم حاسوب</a></li>
+                      <li><a href="#SecName" onclick="ShowTable('ViewTable3')">تكنلوجيا المعلومات</a></li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <h4>كلية الشريعة والقانون<br /></h4>
+                  <div class="Coll">
+                    <ul>
+                      <li><a href="#SecName" onclick="ShowTable('ViewTable4')">شريعة وقانون</a></li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <h4>كلية العلوم الإدارية<br /></h4>
+                  <div class="Coll">
+                    <ul>
+                      <li><a href="#SecName" onclick="ShowTable('ViewTable5')">تسويق</a></li>
+                      <li><a href="#SecName" onclick="ShowTable('ViewTable6')">مصارف وتمويل</a> </li>
+                      <li><a href="#SecName" onclick="ShowTable('ViewTable7')">إدارة عامة</a></li>
+                      <li><a href="#SecName" onclick="ShowTable('ViewTable8')">إدارة اعمال</a></li>
+                      <li><a href="#SecName" onclick="ShowTable('ViewTable9')">محاسبة</a></li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <h4>كلية التربية والعلوم<br /></h4>
+                  <div class="Coll">
+                    <ul>
+                      <li><a href="#SecName" onclick="ShowTable('ViewTable10')">علوم قران</a></li>
+                      <li><a href="#SecName" onclick="ShowTable('ViewTable11')">لغة انجليزية تربية</a></li>
+                      <li><a href="#SecName" onclick="ShowTable('ViewTable12')">لغة عربية تربية</a></li>
+                      <li><a href="#SecName" onclick="ShowTable('ViewTable13')">علوم حياه تربية</a></li>
+                      <li><a href="#SecName" onclick="ShowTable('ViewTable14')"> رياضيات تربية</a></li>
+                      <li><a href="#SecName" onclick="ShowTable('ViewTable15')">فيزياء تربية</a></li>
+                      <li><a href="#SecName" onclick="ShowTable('ViewTable16')">كيمياء تربية</a></li>
+                      <li><a href="#SecName" onclick="ShowTable('ViewTable17')">جيولوجيا</a></li>
+                      <li><a href="#SecName" onclick="ShowTable('ViewTable18')">معلم صف</a></li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <h4>كلية الآداب والعلوم الانسانية <br /></h4>
+                  <div class="Coll">
+                    <ul>
+                      <li><a href="#SecName" onclick="ShowTable('ViewTable19')">الدراسات الاسلامية</a></li>
+                      <li><a href="#SecName" onclick="ShowTable('ViewTable20')">اللغة الانجليزية</a></li>
+                      <li><a href="#SecName" onclick="ShowTable('ViewTable21')">أثار وسياحة</a></li>
+                      <li><a href="#SecName" onclick="ShowTable('ViewTable22')">الاعلام - إذاعة وتلفزيون</a></li>
+                      <li><a href="#SecName" onclick="ShowTable('ViewTable23')">الاعلام - علاقات عامة</a></li>
+                      <li><a href="#SecName" onclick="ShowTable('ViewTable24')">علوم سياسية</a></li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <h4>كلية التربية والعلوم الانسانية والتطبيقية - الجوف <br /></h4>
+                  <div class="Coll">
+                    <ul>
+                      <li><a href="#SecName" onclick="ShowTable('ViewTable1')">نظم معلومات</a></li>
+                      <li><a href="#SecName" onclick="ShowTable('ViewTable18')">معلم صف</a></li>
+                      <li><a href="#SecName" onclick="ShowTable('ViewTable26')">علوم حياة</a></li>
+                      <li><a href="#SecName" onclick="ShowTable('ViewTable27')">رياضيات</a></li>
+                      <li><a href="#SecName" onclick="ShowTable('ViewTable20')">لغة انجليزية</a></li>
+                      <li><a href="#SecName" onclick="ShowTable('ViewTable7')">إدارة عامة</a></li>
+                      <li><a href="#SecName" onclick="ShowTable('ViewTable10')">علوم قران</a></li>
+                      <li><a href="#SecName" onclick="ShowTable('ViewTable28')">لغة عربية</a></li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--===== script =====-->
+    <script src="JS/JS.js"></script>
+    <!-- <script src="JS/JS2.js"></script> -->
+    <!--====== inoicons ======-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
